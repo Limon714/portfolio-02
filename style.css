@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbb;
+}
+
+.blob{
+
+    width: 600px;
+    height: 500px;
+    background: url(./img/funny\ cat.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: cat 3s linear infinite;
+
+}
+
+@keyframes cat{
+    0%, 100%{
+
+        border-radius: 50% 45% 88% 14%;
+
+    }
+   25%{
+
+        border-radius: 30% 25% 78% 65%;
+
+    }
+   50%{
+
+        border-radius: 40% 65% 22% 45%;
+
+    }
+    75%{
+
+        border-radius: 20% 75% 78% 65%;
+
+    }
+    
+}
+
+
+
